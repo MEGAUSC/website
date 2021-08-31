@@ -1,9 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Karla:200,300,400,500,600,700,800,200i,300i,400i,500i,600i,700i,800i&display=swap);
-
-
-
-
-
 body {
   font-family: Jost;
 }
@@ -524,7 +518,7 @@ a.text-black:focus,
 a.text-black.active {
   color: #000000 !important;
 }
-a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]) {
+a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
   position: relative;
   background-image: transparent;
   background-size: 10000px 2px;
@@ -532,7 +526,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]) {
   background-position: 0px 1.2em;
   background-position: -10000px 1.2em;
 }
-a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):hover {
+a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption):hover {
   transition: background-position 2s ease-in-out;
   background-image: linear-gradient(currentColor 50%, currentColor 50%);
   background-position: 0px 1.2em;
@@ -1311,8 +1305,8 @@ a {
   color: #ffffff;
 }
 .cid-stLqPn4rpZ {
-  padding-top: 2rem;
-  padding-bottom: 6rem;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
   background: #fafafa;
 }
 .cid-stLqPn4rpZ .team-card {
@@ -1369,6 +1363,67 @@ a {
   background-color: #6592e6;
 }
 .cid-stLqPn4rpZ .social-row .soc-item:hover .mbr-iconfont {
+  color: #ffffff;
+}
+.cid-sHDyV8date {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  background: #fafafa;
+}
+.cid-sHDyV8date .team-card {
+  margin-bottom: 2rem;
+  transition: all 0.3s;
+}
+.cid-sHDyV8date .team-card:hover {
+  transform: translateY(-10px);
+}
+.cid-sHDyV8date .card-wrap {
+  background: #ffffff;
+  border-radius: 4px;
+}
+@media (max-width: 991px) {
+  .cid-sHDyV8date .card-wrap {
+    margin-bottom: 2rem;
+  }
+}
+.cid-sHDyV8date .card-wrap .image-wrap img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .cid-sHDyV8date .card-wrap .content-wrap {
+    padding: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sHDyV8date .card-wrap .content-wrap {
+    padding: 1rem;
+  }
+}
+.cid-sHDyV8date .social-row {
+  text-align: center;
+}
+.cid-sHDyV8date .social-row .soc-item {
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 2px solid #6592e6;
+  transition: all 0.3s;
+}
+.cid-sHDyV8date .social-row .soc-item .mbr-iconfont {
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #6592e6;
+  font-size: 1.5rem;
+}
+.cid-sHDyV8date .social-row .soc-item:hover {
+  background-color: #6592e6;
+}
+.cid-sHDyV8date .social-row .soc-item:hover .mbr-iconfont {
   color: #ffffff;
 }
 .cid-stLajovn98 {
